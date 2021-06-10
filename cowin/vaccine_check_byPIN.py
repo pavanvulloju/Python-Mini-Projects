@@ -5,12 +5,14 @@ today = datetime.today()
 
 day_var = 7
 this_week_dates = []
+
 for day in range(day_var):
 	this_week_dates.append((today + timedelta(day)).strftime("%d-%m-%y"))
 
 
 def check_by_pin(pin):
-	print(f'Here is your required data for {pin} pincode: \n'+'--'*30)
+	
+	print(f'Here is your data for {pin} pincode: \n'+'--'*30)
 
 	for date in this_week_dates:
 		result = requests.get(f'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode={pin}&date={date}')
