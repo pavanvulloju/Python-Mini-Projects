@@ -1,5 +1,5 @@
 # Python_Mini_Projects
 This Repo contains some projects made using python
 
-#Cowin Project
+#Cowin Project:\n
 It takes in the pincode and gives the available slots for the vaccine
