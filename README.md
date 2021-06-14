@@ -19,4 +19,7 @@ Credits : [clarketm](https://github.com/clarketm/proxy-list)
 [get_QR_code.py](https://github.com/pavanvulloju/Python_Mini_Projects/blob/main/QR_Code_Generator/get_QR_code.py) gives you a QR code for a URL and the validity of the QR code is 24 hours
 - check some sample output files [here](https://github.com/pavanvulloju/Python_Mini_Projects/tree/main/QR_Code_Generator/downloads)
 
-### Working on some more intresting mini projects .... 😊
+## Whatsapp Group Chat Analysis
+This code outputs a Bar graph of number of messages per person in the whatsapp group
+
+### Working on some more interesting mini projects .... 😊
