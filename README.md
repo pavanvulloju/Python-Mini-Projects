@@ -20,6 +20,17 @@ Credits : [clarketm](https://github.com/clarketm/proxy-list)
 - check some sample output files [here](https://github.com/pavanvulloju/Python_Mini_Projects/tree/main/QR_Code_Generator/downloads)
 
 ## Whatsapp Group Chat Analysis
-This code outputs a Bar graph of number of messages per person in the whatsapp group
+[Message Frequency of a member in Whatsapp group](https://github.com/pavanvulloju/Python_Mini_Projects/blob/main/Whatsapp_Chat_Analysis/whatsapp_messages.py) outputs a Bar graph of number of messages per person in the whatsapp group
 
+How to do?
+
+Download your Whatsapp Chat files of any groups and download the above python file and run it.
+
+Note: Install [Matplotlib](https://pypi.org/project/matplotlib/) on your machine
+
+Examples [here](https://github.com/pavanvulloju/Python_Mini_Projects/tree/main/Whatsapp_Chat_Analysis/output-examples):
+
+<img src="https://github.com/pavanvulloju/Python_Mini_Projects/blob/main/Whatsapp_Chat_Analysis/output-examples/3db0a857-72de-4fc6-9103-91bb1a7e0e94.jpg?raw=true" width="480">  <img src="https://github.com/pavanvulloju/Python_Mini_Projects/blob/main/Whatsapp_Chat_Analysis/output-examples/6eba1144-dcd4-450b-ba45-2381699b9674.jpg?raw=true" width="480">
+
+---
 ### Working on some more interesting mini projects .... 😊
