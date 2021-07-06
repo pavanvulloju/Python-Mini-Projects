@@ -1,4 +1,4 @@
-# SVNIT Marks Sheet Converter ( PDF to XlSX )
+# SVNIT Marks Sheet Converter ( PDF to CSV )
 
 import re
 
