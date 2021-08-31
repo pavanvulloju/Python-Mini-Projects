@@ -1,6 +1,6 @@
 # This QR code works for only 24 hours because it is cached for only 1 day at the servers of the QRTAG (qrtag.net/api)
 # This code lets you to go to your required URLs by scanning QR codes
-# Version 1.0
+
 
 import requests
 import os
