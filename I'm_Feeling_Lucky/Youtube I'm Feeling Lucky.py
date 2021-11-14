@@ -1,13 +1,12 @@
-from selenium import webdriver
+import urllib.request
+import re
 
-query = input('Enter youtube search: ')
+def getvideoURL(search_keyword):
+	html = urllib.request.urlopen("https://www.youtube.com/results?search_query=" + search_keyword.replace(' ','+'))
+	video_ids = re.findall(r"watch\?v=(\S{11})", html.read().decode())
+	videoID = video_ids[0]
+	return 'https://www.youtube.com/watch?v='+videoID
 
-if query:
-	PATH = "D:\Repository\Software EXE's\chromedriver_win32\chromedriver.exe"
-	driver = webdriver.Chrome(PATH)
-	driver.get('https://www.youtube.com/results?search_query=' + query)
-	search = driver.find_element_by_id('thumbnail')
-	search.click()
-
-
+videoURL = getvideoURL(input('Enter YouTube query: '))
+print(videoURL)
 
